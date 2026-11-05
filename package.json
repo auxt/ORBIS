@@ -1,0 +1,42 @@
+{
+  "name": "orbis",
+  "private": true,
+  "version": "0.1.0",
+  "description": "ORBIS: a world socio-economic scenario lab joining TEMPEST (macro-financial crises) and POLIS (political instability and turnover). Runs offline in the browser.",
+  "license": "MIT",
+  "homepage": "https://auxt.github.io/ORBIS/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auxt/ORBIS.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "hexworld": "node scripts/build-hexworld.mjs",
+    "parity": "node scripts/parity.mjs",
+    "pwa": "npm run build && node scripts/build-pwa.mjs",
+    "site": "npm run build && node scripts/build-pwa.mjs docs",
+    "page": "npm run build && node scripts/make-artifact.mjs",
+    "pipeline": "python3 pipeline/export_tempest.py && python3 pipeline/export_polis.py"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.1.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.4",
+    "d3-geo": "3.1.1",
+    "i18n-iso-countries": "7.13.0",
+    "topojson-client": "3.1.0",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vite-plugin-singlefile": "2.0.3",
+    "world-atlas": "2.0.2"
+  }
+}

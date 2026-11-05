@@ -1,0 +1,20 @@
+# ORBIS overlay on TEMPEST's config/model.yaml.
+# Everything here extends TEMPEST without editing it: lists are appended, maps are merged.
+# Values marked PLACEHOLDER are judgement-based priors, like TEMPEST's own.
+
+iso2:                          # ISO3 -> ISO2 codes the BIS/IMF adapters need for new economies
+  SVK: SK
+
+countries: [SVK]               # Slovakia joins as the 17th economy (POLIS already models its politics)
+
+groups:
+  AE: [SVK]
+
+unions:
+  EA: [SVK]                    # euro-area member: shares the ECB rate
+
+systemic:
+  SVK: 0.001                   # PLACEHOLDER: negligible weight in global stress / financial hubs
+
+country_params:
+  SVK: {d_star: 80.0, n0: -60.0, i_elb: 0.0, chi_oil: -0.35, kappa0: 18.0}   # PLACEHOLDER; live IMF FSI / IIP take precedence

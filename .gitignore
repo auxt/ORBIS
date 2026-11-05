@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist-pwa/
+pipeline/data_cache/
+__pycache__/
+.DS_Store

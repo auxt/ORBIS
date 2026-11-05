@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use ORBIS, please cite it as below."
+title: "ORBIS: a world socio-economic scenario lab joining TEMPEST and POLIS"
+authors:
+  - family-names: Auxt
+    given-names: Robert
+version: 0.1.0
+date-released: 2026-11-05
+license: MIT
+repository-code: "https://github.com/auxt/ORBIS"
+url: "https://auxt.github.io/ORBIS/"
+references:
+  - type: software
+    title: "TEMPEST: A Nonlinear Macro-Financial Model with Endogenous Crisis Regimes"
+    authors: [{ family-names: Auxt, given-names: Robert }]
+    repository-code: "https://github.com/auxt/TEMPEST"
+  - type: software
+    title: "POLIS: A Probabilistic Model of Political Instability, Government Turnover and Their Macro-Financial Consequences"
+    authors: [{ family-names: Auxt, given-names: Robert }]
+    repository-code: "https://github.com/auxt/POLIS"

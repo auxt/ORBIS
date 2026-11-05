@@ -1,0 +1,41 @@
+# Weekly: pull fresh public data through TEMPEST and POLIS, re-export the snapshots, check the
+# TypeScript engine against Python, rebuild the site and commit it. Run by hand from the Actions tab.
+name: Refresh data and site
+on:
+  schedule:
+    - cron: '17 5 * * 1'   # Mondays 05:17 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: refresh
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: { repository: auxt/TEMPEST, path: vendor/TEMPEST }
+      - uses: actions/checkout@v4
+        with: { repository: auxt/POLIS, path: vendor/POLIS }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12', cache: pip, cache-dependency-path: pipeline/requirements.txt }
+      - run: pip install -r pipeline/requirements.txt
+      - name: Export TEMPEST snapshot (BIS, IMF, FRED)
+        run: python pipeline/export_tempest.py --tempest vendor/TEMPEST
+      - name: Export POLIS snapshot
+        run: python pipeline/export_polis.py --polis vendor/POLIS
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Parity check (TypeScript engine vs Python TEMPEST)
+        run: npm run parity
+      - name: Build site
+        run: npm run site
+      - name: Commit
+        run: |
+          git config user.name "orbis-refresh"
+          git config user.email "orbis-refresh@users.noreply.github.com"
+          git add src/data reference docs
+          git diff --cached --quiet || git commit -m "Weekly data refresh $(date -u +%F)"
+          git push

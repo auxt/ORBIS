@@ -1,0 +1,8 @@
+# Python side of ORBIS: imports TEMPEST and POLIS unchanged and exports browser snapshots.
+numpy>=1.26
+scipy>=1.11
+pandas>=2.2
+pyyaml>=6.0
+requests>=2.31
+scikit-learn>=1.5
+xgboost>=2.0
