@@ -5,106 +5,106 @@
  "rows": [
   {
    "check": "baseline: world growth median t=4",
-   "ts": 2.473,
-   "python": 2.476,
+   "ts": 2.449,
+   "python": 2.452,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "baseline: world growth 5% t=4",
-   "ts": 1.137,
-   "python": 1.189,
+   "ts": 1.111,
+   "python": 1.164,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: world growth 95% t=4",
-   "ts": 3.715,
-   "python": 3.73,
+   "ts": 3.702,
+   "python": 3.709,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: world growth median t=8",
    "ts": 2.762,
-   "python": 2.753,
+   "python": 2.75,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "baseline: world growth 5% t=8",
-   "ts": 1.202,
-   "python": 1.163,
+   "ts": 1.198,
+   "python": 1.16,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: world growth 95% t=8",
-   "ts": 4.241,
-   "python": 4.217,
+   "ts": 4.244,
+   "python": 4.216,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: world growth median t=20",
-   "ts": 2.727,
-   "python": 2.693,
+   "ts": 2.732,
+   "python": 2.699,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "baseline: world growth 5% t=20",
-   "ts": 0.858,
-   "python": 0.831,
+   "ts": 0.865,
+   "python": 0.838,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: world growth 95% t=20",
-   "ts": 4.361,
-   "python": 4.323,
+   "ts": 4.366,
+   "python": 4.33,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: world growth median t=40",
-   "ts": 2.704,
-   "python": 2.703,
+   "ts": 2.707,
+   "python": 2.707,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "baseline: world growth 5% t=40",
-   "ts": 0.71,
-   "python": 0.66,
+   "ts": 0.713,
+   "python": 0.661,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: world growth 95% t=40",
    "ts": 4.429,
-   "python": 4.458,
+   "python": 4.454,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: G median t=1",
-   "ts": -0.211,
-   "python": -0.214,
+   "ts": -0.159,
+   "python": -0.162,
    "tol": 0.05,
    "ok": true
   },
   {
    "check": "baseline: G median t=2",
-   "ts": -0.161,
-   "python": -0.165,
+   "ts": -0.119,
+   "python": -0.123,
    "tol": 0.05,
    "ok": true
   },
   {
    "check": "baseline: G median t=4",
-   "ts": -0.103,
-   "python": -0.115,
+   "ts": -0.074,
+   "python": -0.087,
    "tol": 0.05,
    "ok": true
   },
@@ -117,43 +117,43 @@
   },
   {
    "check": "baseline: stress share mean t=20",
-   "ts": 0.039,
+   "ts": 0.038,
    "python": 0.037,
    "tol": 0.012,
    "ok": true
   },
   {
    "check": "baseline: stress share mean t=40",
-   "ts": 0.057,
+   "ts": 0.056,
    "python": 0.054,
    "tol": 0.012,
    "ok": true
   },
   {
    "check": "baseline: USA P(stress 5y)",
-   "ts": 0.071,
+   "ts": 0.07,
    "python": 0.075,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: USA P(recession 2y)",
-   "ts": 0.247,
-   "python": 0.239,
+   "ts": 0.254,
+   "python": 0.246,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: USA debt median 10y",
-   "ts": 152.296,
-   "python": 152.5,
-   "tol": 3.05,
+   "ts": 152.215,
+   "python": 152.4,
+   "tol": 3.048,
    "ok": true
   },
   {
    "check": "baseline: USA growth median 4q",
-   "ts": 1.435,
-   "python": 1.44,
+   "ts": 1.406,
+   "python": 1.41,
    "tol": 0.12,
    "ok": true
   },
@@ -166,22 +166,22 @@
   },
   {
    "check": "baseline: DEU P(recession 2y)",
-   "ts": 0.581,
-   "python": 0.59,
+   "ts": 0.587,
+   "python": 0.596,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: DEU debt median 10y",
-   "ts": 87.657,
+   "ts": 87.636,
    "python": 87.7,
    "tol": 1.754,
    "ok": true
   },
   {
    "check": "baseline: DEU growth median 4q",
-   "ts": 0.839,
-   "python": 0.83,
+   "ts": 0.815,
+   "python": 0.81,
    "tol": 0.12,
    "ok": true
   },
@@ -194,22 +194,22 @@
   },
   {
    "check": "baseline: FRA P(recession 2y)",
-   "ts": 0.508,
-   "python": 0.497,
+   "ts": 0.516,
+   "python": 0.505,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: FRA debt median 10y",
-   "ts": 130.621,
+   "ts": 130.598,
    "python": 130.6,
    "tol": 2.612,
    "ok": true
   },
   {
    "check": "baseline: FRA growth median 4q",
-   "ts": 1.104,
-   "python": 1.12,
+   "ts": 1.08,
+   "python": 1.09,
    "tol": 0.12,
    "ok": true
   },
@@ -222,22 +222,22 @@
   },
   {
    "check": "baseline: ITA P(recession 2y)",
-   "ts": 0.754,
-   "python": 0.743,
+   "ts": 0.76,
+   "python": 0.748,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: ITA debt median 10y",
-   "ts": 138.702,
-   "python": 138.7,
-   "tol": 2.774,
+   "ts": 138.692,
+   "python": 138.6,
+   "tol": 2.772,
    "ok": true
   },
   {
    "check": "baseline: ITA growth median 4q",
-   "ts": 0.408,
-   "python": 0.41,
+   "ts": 0.384,
+   "python": 0.39,
    "tol": 0.12,
    "ok": true
   },
@@ -250,162 +250,162 @@
   },
   {
    "check": "baseline: ESP P(recession 2y)",
-   "ts": 0.308,
-   "python": 0.306,
+   "ts": 0.314,
+   "python": 0.312,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: ESP debt median 10y",
-   "ts": 96.775,
+   "ts": 96.771,
    "python": 96.6,
    "tol": 1.932,
    "ok": true
   },
   {
    "check": "baseline: ESP growth median 4q",
-   "ts": 1.155,
-   "python": 1.15,
+   "ts": 1.13,
+   "python": 1.12,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: GBR P(stress 5y)",
-   "ts": 0.055,
+   "ts": 0.054,
    "python": 0.054,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: GBR P(recession 2y)",
-   "ts": 0.358,
-   "python": 0.349,
+   "ts": 0.364,
+   "python": 0.358,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: GBR debt median 10y",
-   "ts": 96.505,
+   "ts": 96.489,
    "python": 96.6,
    "tol": 1.932,
    "ok": true
   },
   {
    "check": "baseline: GBR growth median 4q",
-   "ts": 1.18,
-   "python": 1.17,
+   "ts": 1.156,
+   "python": 1.15,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: JPN P(stress 5y)",
    "ts": 0.165,
-   "python": 0.153,
+   "python": 0.154,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: JPN P(recession 2y)",
-   "ts": 0.791,
-   "python": 0.783,
+   "ts": 0.797,
+   "python": 0.79,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: JPN debt median 10y",
-   "ts": 217.735,
-   "python": 217.6,
-   "tol": 4.352,
+   "ts": 217.684,
+   "python": 217.5,
+   "tol": 4.35,
    "ok": true
   },
   {
    "check": "baseline: JPN growth median 4q",
-   "ts": 0.317,
-   "python": 0.34,
+   "ts": 0.286,
+   "python": 0.31,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: CAN P(stress 5y)",
-   "ts": 0.086,
-   "python": 0.085,
+   "ts": 0.08,
+   "python": 0.08,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: CAN P(recession 2y)",
-   "ts": 0.11,
-   "python": 0.114,
+   "ts": 0.111,
+   "python": 0.116,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: CAN debt median 10y",
-   "ts": 127.012,
-   "python": 127.1,
-   "tol": 2.542,
+   "ts": 127.117,
+   "python": 127.2,
+   "tol": 2.544,
    "ok": true
   },
   {
    "check": "baseline: CAN growth median 4q",
-   "ts": 2.679,
-   "python": 2.7,
+   "ts": 2.603,
+   "python": 2.62,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: KOR P(stress 5y)",
    "ts": 0.075,
-   "python": 0.078,
+   "python": 0.077,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: KOR P(recession 2y)",
-   "ts": 0.278,
-   "python": 0.275,
+   "ts": 0.284,
+   "python": 0.28,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: KOR debt median 10y",
-   "ts": 48.181,
+   "ts": 48.182,
    "python": 48.3,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "baseline: KOR growth median 4q",
-   "ts": 1.079,
-   "python": 1.08,
+   "ts": 1.055,
+   "python": 1.06,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: AUS P(stress 5y)",
    "ts": 0.09,
-   "python": 0.086,
+   "python": 0.085,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: AUS P(recession 2y)",
-   "ts": 0.177,
-   "python": 0.177,
+   "ts": 0.181,
+   "python": 0.182,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: AUS debt median 10y",
-   "ts": 60.602,
+   "ts": 60.605,
    "python": 60.7,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "baseline: AUS growth median 4q",
-   "ts": 1.64,
-   "python": 1.66,
+   "ts": 1.614,
+   "python": 1.63,
    "tol": 0.12,
    "ok": true
   },
@@ -418,29 +418,29 @@
   },
   {
    "check": "baseline: CHN P(recession 2y)",
-   "ts": 0.054,
-   "python": 0.059,
+   "ts": 0.055,
+   "python": 0.06,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: CHN debt median 10y",
-   "ts": 134.055,
+   "ts": 134.033,
    "python": 134.2,
    "tol": 2.684,
    "ok": true
   },
   {
    "check": "baseline: CHN growth median 4q",
-   "ts": 2.952,
-   "python": 2.98,
+   "ts": 2.918,
+   "python": 2.95,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: IND P(stress 5y)",
-   "ts": 0.132,
-   "python": 0.123,
+   "ts": 0.131,
+   "python": 0.122,
    "tol": 0.025,
    "ok": true
   },
@@ -453,176 +453,176 @@
   },
   {
    "check": "baseline: IND debt median 10y",
-   "ts": 87.816,
+   "ts": 87.793,
    "python": 87.9,
    "tol": 1.758,
    "ok": true
   },
   {
    "check": "baseline: IND growth median 4q",
-   "ts": 6.733,
-   "python": 6.74,
+   "ts": 6.703,
+   "python": 6.71,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: BRA P(stress 5y)",
    "ts": 0.109,
-   "python": 0.115,
+   "python": 0.114,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: BRA P(recession 2y)",
-   "ts": 0.38,
-   "python": 0.374,
+   "ts": 0.388,
+   "python": 0.382,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: BRA debt median 10y",
-   "ts": 124.909,
+   "ts": 124.891,
    "python": 125.1,
    "tol": 2.502,
    "ok": true
   },
   {
    "check": "baseline: BRA growth median 4q",
-   "ts": 1.099,
-   "python": 1.11,
+   "ts": 1.067,
+   "python": 1.08,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: MEX P(stress 5y)",
    "ts": 0.123,
-   "python": 0.123,
+   "python": 0.122,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: MEX P(recession 2y)",
-   "ts": 0.299,
-   "python": 0.307,
+   "ts": 0.306,
+   "python": 0.312,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: MEX debt median 10y",
-   "ts": 61.068,
-   "python": 61,
+   "ts": 61.071,
+   "python": 61.1,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "baseline: MEX growth median 4q",
-   "ts": 1.874,
-   "python": 1.9,
+   "ts": 1.844,
+   "python": 1.87,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: TUR P(stress 5y)",
-   "ts": 0.042,
-   "python": 0.043,
+   "ts": 0.045,
+   "python": 0.046,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: TUR P(recession 2y)",
-   "ts": 0.377,
-   "python": 0.381,
+   "ts": 0.351,
+   "python": 0.354,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: TUR debt median 10y",
-   "ts": 51.468,
-   "python": 51.5,
+   "ts": 50.786,
+   "python": 50.8,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "baseline: TUR growth median 4q",
-   "ts": 1.804,
-   "python": 1.8,
+   "ts": 2.009,
+   "python": 2.01,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: ZAF P(stress 5y)",
    "ts": 0.083,
-   "python": 0.083,
+   "python": 0.084,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: ZAF P(recession 2y)",
-   "ts": 0.477,
-   "python": 0.48,
+   "ts": 0.486,
+   "python": 0.488,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: ZAF debt median 10y",
-   "ts": 92.764,
+   "ts": 92.772,
    "python": 92.6,
    "tol": 1.852,
    "ok": true
   },
   {
    "check": "baseline: ZAF growth median 4q",
-   "ts": 1.295,
-   "python": 1.32,
+   "ts": 1.266,
+   "python": 1.29,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "baseline: SVK P(stress 5y)",
-   "ts": 0.123,
+   "ts": 0.124,
    "python": 0.117,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "baseline: SVK P(recession 2y)",
-   "ts": 0.098,
-   "python": 0.096,
+   "ts": 0.101,
+   "python": 0.098,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "baseline: SVK debt median 10y",
-   "ts": 85.353,
+   "ts": 85.343,
    "python": 85.3,
    "tol": 1.706,
    "ok": true
   },
   {
    "check": "baseline: SVK growth median 4q",
-   "ts": 2.718,
-   "python": 2.72,
+   "ts": 2.694,
+   "python": 2.7,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "global_risk_off: world growth median t=4",
-   "ts": 0.328,
-   "python": 0.347,
+   "ts": 0.333,
+   "python": 0.354,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "global_risk_off: world growth 5% t=4",
-   "ts": -0.818,
-   "python": -0.767,
+   "ts": -0.813,
+   "python": -0.76,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "global_risk_off: world growth 95% t=4",
-   "ts": 1.382,
-   "python": 1.389,
+   "ts": 1.388,
+   "python": 1.394,
    "tol": 0.12,
    "ok": true
   },
@@ -636,41 +636,41 @@
   {
    "check": "global_risk_off: world growth 5% t=8",
    "ts": 0.908,
-   "python": 0.872,
+   "python": 0.869,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "global_risk_off: world growth 95% t=8",
-   "ts": 4.125,
-   "python": 4.105,
+   "ts": 4.127,
+   "python": 4.106,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "global_risk_off: world growth median t=20",
-   "ts": 3.195,
-   "python": 3.146,
+   "ts": 3.193,
+   "python": 3.145,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "global_risk_off: world growth 5% t=20",
-   "ts": 1.4,
-   "python": 1.365,
+   "ts": 1.399,
+   "python": 1.364,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "global_risk_off: world growth 95% t=20",
-   "ts": 4.806,
-   "python": 4.79,
+   "ts": 4.803,
+   "python": 4.788,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "global_risk_off: world growth median t=40",
-   "ts": 2.787,
+   "ts": 2.786,
    "python": 2.782,
    "tol": 0.06,
    "ok": true
@@ -678,14 +678,14 @@
   {
    "check": "global_risk_off: world growth 5% t=40",
    "ts": 0.949,
-   "python": 0.89,
+   "python": 0.889,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "global_risk_off: world growth 95% t=40",
-   "ts": 4.469,
-   "python": 4.486,
+   "ts": 4.471,
+   "python": 4.488,
    "tol": 0.12,
    "ok": true
   },
@@ -733,44 +733,44 @@
   },
   {
    "check": "global_risk_off: world level effect median t=4",
-   "ts": -2.138,
-   "python": -2.139,
-   "tol": 0.171,
+   "ts": -2.108,
+   "python": -2.11,
+   "tol": 0.169,
    "ok": true
   },
   {
    "check": "global_risk_off: world level effect 5% t=4",
-   "ts": -3.044,
-   "python": -3.041,
-   "tol": 0.365,
+   "ts": -3.021,
+   "python": -3.018,
+   "tol": 0.362,
    "ok": true
   },
   {
    "check": "global_risk_off: world level effect median t=8",
-   "ts": -2.279,
-   "python": -2.276,
-   "tol": 0.182,
+   "ts": -2.246,
+   "python": -2.241,
+   "tol": 0.179,
    "ok": true
   },
   {
    "check": "global_risk_off: world level effect 5% t=8",
-   "ts": -3.88,
-   "python": -3.875,
-   "tol": 0.465,
+   "ts": -3.852,
+   "python": -3.84,
+   "tol": 0.461,
    "ok": true
   },
   {
    "check": "global_risk_off: world level effect median t=20",
-   "ts": -0.66,
-   "python": -0.652,
+   "ts": -0.653,
+   "python": -0.645,
    "tol": 0.052,
    "ok": true
   },
   {
    "check": "global_risk_off: world level effect 5% t=20",
-   "ts": -2.428,
-   "python": -2.447,
-   "tol": 0.294,
+   "ts": -2.416,
+   "python": -2.433,
+   "tol": 0.292,
    "ok": true
   },
   {
@@ -789,7 +789,7 @@
   },
   {
    "check": "global_risk_off: USA debt median 10y",
-   "ts": 149.566,
+   "ts": 149.563,
    "python": 149.7,
    "tol": 2.994,
    "ok": true
@@ -817,7 +817,7 @@
   },
   {
    "check": "global_risk_off: DEU debt median 10y",
-   "ts": 87.183,
+   "ts": 87.182,
    "python": 87.3,
    "tol": 1.746,
    "ok": true
@@ -859,7 +859,7 @@
   },
   {
    "check": "global_risk_off: ITA P(stress 5y)",
-   "ts": 0.133,
+   "ts": 0.134,
    "python": 0.126,
    "tol": 0.025,
    "ok": true
@@ -873,14 +873,14 @@
   },
   {
    "check": "global_risk_off: ITA debt median 10y",
-   "ts": 138.852,
+   "ts": 138.839,
    "python": 138.9,
    "tol": 2.778,
    "ok": true
   },
   {
    "check": "global_risk_off: ITA growth median 4q",
-   "ts": -1.315,
+   "ts": -1.314,
    "python": -1.31,
    "tol": 0.12,
    "ok": true
@@ -901,14 +901,14 @@
   },
   {
    "check": "global_risk_off: ESP debt median 10y",
-   "ts": 97.137,
+   "ts": 97.134,
    "python": 97,
    "tol": 1.94,
    "ok": true
   },
   {
    "check": "global_risk_off: ESP growth median 4q",
-   "ts": -0.585,
+   "ts": -0.584,
    "python": -0.57,
    "tol": 0.12,
    "ok": true
@@ -929,7 +929,7 @@
   },
   {
    "check": "global_risk_off: GBR debt median 10y",
-   "ts": 97.198,
+   "ts": 97.191,
    "python": 97.2,
    "tol": 1.944,
    "ok": true
@@ -957,7 +957,7 @@
   },
   {
    "check": "global_risk_off: JPN debt median 10y",
-   "ts": 216.307,
+   "ts": 216.306,
    "python": 216.2,
    "tol": 4.324,
    "ok": true
@@ -971,29 +971,29 @@
   },
   {
    "check": "global_risk_off: CAN P(stress 5y)",
-   "ts": 0.087,
-   "python": 0.088,
+   "ts": 0.084,
+   "python": 0.084,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "global_risk_off: CAN P(recession 2y)",
-   "ts": 0.408,
-   "python": 0.416,
+   "ts": 0.423,
+   "python": 0.428,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "global_risk_off: CAN debt median 10y",
-   "ts": 127.013,
-   "python": 127.1,
-   "tol": 2.542,
+   "ts": 127.136,
+   "python": 127.2,
+   "tol": 2.544,
    "ok": true
   },
   {
    "check": "global_risk_off: CAN growth median 4q",
-   "ts": 0.912,
-   "python": 0.94,
+   "ts": 0.861,
+   "python": 0.89,
    "tol": 0.12,
    "ok": true
   },
@@ -1013,7 +1013,7 @@
   },
   {
    "check": "global_risk_off: KOR debt median 10y",
-   "ts": 49.203,
+   "ts": 49.198,
    "python": 49.3,
    "tol": 1.5,
    "ok": true
@@ -1041,7 +1041,7 @@
   },
   {
    "check": "global_risk_off: AUS debt median 10y",
-   "ts": 61.364,
+   "ts": 61.361,
    "python": 61.4,
    "tol": 1.5,
    "ok": true
@@ -1069,7 +1069,7 @@
   },
   {
    "check": "global_risk_off: CHN debt median 10y",
-   "ts": 134.349,
+   "ts": 134.344,
    "python": 134.5,
    "tol": 2.69,
    "ok": true
@@ -1125,7 +1125,7 @@
   },
   {
    "check": "global_risk_off: BRA debt median 10y",
-   "ts": 125.124,
+   "ts": 125.11,
    "python": 125.1,
    "tol": 2.502,
    "ok": true
@@ -1167,29 +1167,29 @@
   },
   {
    "check": "global_risk_off: TUR P(stress 5y)",
-   "ts": 0.083,
-   "python": 0.08,
+   "ts": 0.086,
+   "python": 0.083,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "global_risk_off: TUR P(recession 2y)",
-   "ts": 0.765,
-   "python": 0.766,
+   "ts": 0.711,
+   "python": 0.709,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "global_risk_off: TUR debt median 10y",
-   "ts": 54.246,
-   "python": 54.2,
+   "ts": 53.537,
+   "python": 53.5,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "global_risk_off: TUR growth median 4q",
-   "ts": -0.245,
-   "python": -0.22,
+   "ts": -0.01,
+   "python": 0.01,
    "tol": 0.12,
    "ok": true
   },
@@ -1209,7 +1209,7 @@
   },
   {
    "check": "global_risk_off: ZAF debt median 10y",
-   "ts": 94.112,
+   "ts": 94.108,
    "python": 94.1,
    "tol": 1.882,
    "ok": true
@@ -1237,120 +1237,120 @@
   },
   {
    "check": "global_risk_off: SVK debt median 10y",
-   "ts": 85.542,
+   "ts": 85.54,
    "python": 85.5,
    "tol": 1.71,
    "ok": true
   },
   {
    "check": "global_risk_off: SVK growth median 4q",
-   "ts": 0.983,
+   "ts": 0.984,
    "python": 0.99,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth median t=4",
-   "ts": 2.207,
-   "python": 2.208,
+   "ts": 2.182,
+   "python": 2.183,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth 5% t=4",
-   "ts": 0.858,
-   "python": 0.915,
+   "ts": 0.83,
+   "python": 0.89,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth 95% t=4",
-   "ts": 3.452,
-   "python": 3.466,
+   "ts": 3.435,
+   "python": 3.445,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth median t=8",
-   "ts": 2.416,
-   "python": 2.403,
+   "ts": 2.412,
+   "python": 2.4,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth 5% t=8",
-   "ts": 0.831,
-   "python": 0.788,
+   "ts": 0.825,
+   "python": 0.779,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth 95% t=8",
-   "ts": 3.908,
-   "python": 3.89,
+   "ts": 3.905,
+   "python": 3.886,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth median t=20",
-   "ts": 2.908,
-   "python": 2.877,
+   "ts": 2.916,
+   "python": 2.882,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth 5% t=20",
-   "ts": 1.074,
-   "python": 1.048,
+   "ts": 1.079,
+   "python": 1.053,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth 95% t=20",
-   "ts": 4.529,
-   "python": 4.5,
+   "ts": 4.54,
+   "python": 4.508,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth median t=40",
-   "ts": 2.681,
-   "python": 2.693,
+   "ts": 2.682,
+   "python": 2.695,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth 5% t=40",
-   "ts": 0.69,
-   "python": 0.647,
+   "ts": 0.703,
+   "python": 0.649,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: world growth 95% t=40",
-   "ts": 4.411,
+   "ts": 4.413,
    "python": 4.435,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: G median t=1",
-   "ts": -0.211,
-   "python": -0.214,
+   "ts": -0.159,
+   "python": -0.162,
    "tol": 0.05,
    "ok": true
   },
   {
    "check": "oil_supply_shock: G median t=2",
-   "ts": -0.161,
-   "python": -0.165,
+   "ts": -0.119,
+   "python": -0.123,
    "tol": 0.05,
    "ok": true
   },
   {
    "check": "oil_supply_shock: G median t=4",
-   "ts": -0.099,
-   "python": -0.114,
+   "ts": -0.071,
+   "python": -0.086,
    "tol": 0.05,
    "ok": true
   },
@@ -1364,7 +1364,7 @@
   {
    "check": "oil_supply_shock: stress share mean t=20",
    "ts": 0.032,
-   "python": 0.031,
+   "python": 0.032,
    "tol": 0.012,
    "ok": true
   },
@@ -1385,7 +1385,7 @@
   {
    "check": "oil_supply_shock: world level effect 5% t=4",
    "ts": -0.287,
-   "python": -0.286,
+   "python": -0.287,
    "tol": 0.12,
    "ok": true
   },
@@ -1398,8 +1398,8 @@
   },
   {
    "check": "oil_supply_shock: world level effect 5% t=8",
-   "ts": -0.838,
-   "python": -0.842,
+   "ts": -0.84,
+   "python": -0.845,
    "tol": 0.12,
    "ok": true
   },
@@ -1412,8 +1412,8 @@
   },
   {
    "check": "oil_supply_shock: world level effect 5% t=20",
-   "ts": -0.132,
-   "python": -0.157,
+   "ts": -0.141,
+   "python": -0.167,
    "tol": 0.12,
    "ok": true
   },
@@ -1426,22 +1426,22 @@
   },
   {
    "check": "oil_supply_shock: USA P(recession 2y)",
-   "ts": 0.343,
-   "python": 0.337,
+   "ts": 0.35,
+   "python": 0.346,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: USA debt median 10y",
-   "ts": 152.709,
-   "python": 152.9,
-   "tol": 3.058,
+   "ts": 152.646,
+   "python": 152.8,
+   "tol": 3.056,
    "ok": true
   },
   {
    "check": "oil_supply_shock: USA growth median 4q",
-   "ts": 1.378,
-   "python": 1.38,
+   "ts": 1.35,
+   "python": 1.35,
    "tol": 0.12,
    "ok": true
   },
@@ -1454,22 +1454,22 @@
   },
   {
    "check": "oil_supply_shock: DEU P(recession 2y)",
-   "ts": 0.742,
-   "python": 0.743,
+   "ts": 0.747,
+   "python": 0.749,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: DEU debt median 10y",
-   "ts": 87.83,
+   "ts": 87.826,
    "python": 87.9,
    "tol": 1.758,
    "ok": true
   },
   {
    "check": "oil_supply_shock: DEU growth median 4q",
-   "ts": 0.466,
-   "python": 0.46,
+   "ts": 0.442,
+   "python": 0.44,
    "tol": 0.12,
    "ok": true
   },
@@ -1482,253 +1482,253 @@
   },
   {
    "check": "oil_supply_shock: FRA P(recession 2y)",
-   "ts": 0.677,
-   "python": 0.667,
+   "ts": 0.682,
+   "python": 0.675,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: FRA debt median 10y",
-   "ts": 130.795,
+   "ts": 130.789,
    "python": 130.9,
    "tol": 2.618,
    "ok": true
   },
   {
    "check": "oil_supply_shock: FRA growth median 4q",
-   "ts": 0.728,
-   "python": 0.74,
+   "ts": 0.705,
+   "python": 0.72,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ITA P(stress 5y)",
-   "ts": 0.094,
+   "ts": 0.093,
    "python": 0.09,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ITA P(recession 2y)",
-   "ts": 0.875,
-   "python": 0.871,
+   "ts": 0.879,
+   "python": 0.875,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ITA debt median 10y",
-   "ts": 138.903,
+   "ts": 138.9,
    "python": 138.9,
    "tol": 2.778,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ITA growth median 4q",
-   "ts": 0.035,
-   "python": 0.04,
+   "ts": 0.012,
+   "python": 0.01,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ESP P(stress 5y)",
    "ts": 0.099,
-   "python": 0.094,
+   "python": 0.095,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ESP P(recession 2y)",
-   "ts": 0.48,
-   "python": 0.481,
+   "ts": 0.486,
+   "python": 0.488,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ESP debt median 10y",
-   "ts": 96.935,
+   "ts": 96.928,
    "python": 96.8,
    "tol": 1.936,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ESP growth median 4q",
-   "ts": 0.778,
-   "python": 0.77,
+   "ts": 0.754,
+   "python": 0.75,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: GBR P(stress 5y)",
    "ts": 0.05,
-   "python": 0.048,
+   "python": 0.049,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: GBR P(recession 2y)",
-   "ts": 0.489,
-   "python": 0.477,
+   "ts": 0.496,
+   "python": 0.482,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: GBR debt median 10y",
-   "ts": 96.801,
+   "ts": 96.804,
    "python": 96.9,
    "tol": 1.938,
    "ok": true
   },
   {
    "check": "oil_supply_shock: GBR growth median 4q",
-   "ts": 1.007,
-   "python": 1,
+   "ts": 0.984,
+   "python": 0.98,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: JPN P(stress 5y)",
-   "ts": 0.154,
-   "python": 0.145,
+   "ts": 0.153,
+   "python": 0.146,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: JPN P(recession 2y)",
-   "ts": 0.906,
-   "python": 0.902,
+   "ts": 0.911,
+   "python": 0.906,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: JPN debt median 10y",
-   "ts": 218.346,
+   "ts": 218.325,
    "python": 218.2,
    "tol": 4.364,
    "ok": true
   },
   {
    "check": "oil_supply_shock: JPN growth median 4q",
-   "ts": -0.142,
-   "python": -0.12,
+   "ts": -0.173,
+   "python": -0.15,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: CAN P(stress 5y)",
-   "ts": 0.079,
-   "python": 0.081,
+   "ts": 0.075,
+   "python": 0.076,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: CAN P(recession 2y)",
-   "ts": 0.175,
-   "python": 0.18,
+   "ts": 0.179,
+   "python": 0.182,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: CAN debt median 10y",
-   "ts": 127.424,
-   "python": 127.5,
-   "tol": 2.55,
+   "ts": 127.551,
+   "python": 127.6,
+   "tol": 2.552,
    "ok": true
   },
   {
    "check": "oil_supply_shock: CAN growth median 4q",
-   "ts": 2.928,
-   "python": 2.95,
+   "ts": 2.854,
+   "python": 2.88,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: KOR P(stress 5y)",
-   "ts": 0.066,
+   "ts": 0.065,
    "python": 0.067,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: KOR P(recession 2y)",
-   "ts": 0.492,
-   "python": 0.491,
+   "ts": 0.502,
+   "python": 0.5,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: KOR debt median 10y",
-   "ts": 48.416,
+   "ts": 48.423,
    "python": 48.5,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "oil_supply_shock: KOR growth median 4q",
-   "ts": 0.51,
-   "python": 0.51,
+   "ts": 0.485,
+   "python": 0.49,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: AUS P(stress 5y)",
-   "ts": 0.085,
+   "ts": 0.086,
    "python": 0.082,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: AUS P(recession 2y)",
-   "ts": 0.26,
-   "python": 0.261,
+   "ts": 0.265,
+   "python": 0.266,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: AUS debt median 10y",
-   "ts": 60.701,
+   "ts": 60.706,
    "python": 60.8,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "oil_supply_shock: AUS growth median 4q",
-   "ts": 1.647,
-   "python": 1.66,
+   "ts": 1.622,
+   "python": 1.64,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: CHN P(stress 5y)",
-   "ts": 0.08,
-   "python": 0.077,
+   "ts": 0.079,
+   "python": 0.078,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: CHN P(recession 2y)",
-   "ts": 0.103,
-   "python": 0.108,
+   "ts": 0.106,
+   "python": 0.11,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: CHN debt median 10y",
-   "ts": 134.504,
+   "ts": 134.485,
    "python": 134.6,
    "tol": 2.692,
    "ok": true
   },
   {
    "check": "oil_supply_shock: CHN growth median 4q",
-   "ts": 2.582,
-   "python": 2.61,
+   "ts": 2.55,
+   "python": 2.58,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: IND P(stress 5y)",
-   "ts": 0.118,
-   "python": 0.109,
+   "ts": 0.119,
+   "python": 0.11,
    "tol": 0.025,
    "ok": true
   },
@@ -1741,43 +1741,43 @@
   },
   {
    "check": "oil_supply_shock: IND debt median 10y",
-   "ts": 87.678,
+   "ts": 87.666,
    "python": 87.7,
    "tol": 1.754,
    "ok": true
   },
   {
    "check": "oil_supply_shock: IND growth median 4q",
-   "ts": 6.254,
-   "python": 6.26,
+   "ts": 6.223,
+   "python": 6.23,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: BRA P(stress 5y)",
-   "ts": 0.107,
+   "ts": 0.106,
    "python": 0.112,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: BRA P(recession 2y)",
-   "ts": 0.421,
-   "python": 0.417,
+   "ts": 0.429,
+   "python": 0.426,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: BRA debt median 10y",
-   "ts": 125.213,
+   "ts": 125.198,
    "python": 125.3,
    "tol": 2.506,
    "ok": true
   },
   {
    "check": "oil_supply_shock: BRA growth median 4q",
-   "ts": 1.112,
-   "python": 1.13,
+   "ts": 1.082,
+   "python": 1.1,
    "tol": 0.12,
    "ok": true
   },
@@ -1790,50 +1790,50 @@
   },
   {
    "check": "oil_supply_shock: MEX P(recession 2y)",
-   "ts": 0.389,
-   "python": 0.39,
+   "ts": 0.394,
+   "python": 0.395,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: MEX debt median 10y",
-   "ts": 61.211,
+   "ts": 61.226,
    "python": 61.2,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "oil_supply_shock: MEX growth median 4q",
-   "ts": 1.814,
-   "python": 1.84,
+   "ts": 1.782,
+   "python": 1.8,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "oil_supply_shock: TUR P(stress 5y)",
-   "ts": 0.055,
-   "python": 0.054,
+   "ts": 0.058,
+   "python": 0.058,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "oil_supply_shock: TUR P(recession 2y)",
-   "ts": 0.44,
-   "python": 0.44,
+   "ts": 0.416,
+   "python": 0.418,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: TUR debt median 10y",
-   "ts": 53.493,
-   "python": 53.6,
+   "ts": 52.698,
+   "python": 52.8,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "oil_supply_shock: TUR growth median 4q",
-   "ts": 1.966,
-   "python": 1.98,
+   "ts": 2.183,
+   "python": 2.19,
    "tol": 0.12,
    "ok": true
   },
@@ -1846,22 +1846,22 @@
   },
   {
    "check": "oil_supply_shock: ZAF P(recession 2y)",
-   "ts": 0.604,
-   "python": 0.604,
+   "ts": 0.61,
+   "python": 0.612,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ZAF debt median 10y",
-   "ts": 92.992,
+   "ts": 92.991,
    "python": 92.9,
    "tol": 1.858,
    "ok": true
   },
   {
    "check": "oil_supply_shock: ZAF growth median 4q",
-   "ts": 1.008,
-   "python": 1.04,
+   "ts": 0.976,
+   "python": 1.01,
    "tol": 0.12,
    "ok": true
   },
@@ -1874,127 +1874,127 @@
   },
   {
    "check": "oil_supply_shock: SVK P(recession 2y)",
-   "ts": 0.18,
-   "python": 0.174,
+   "ts": 0.183,
+   "python": 0.178,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "oil_supply_shock: SVK debt median 10y",
-   "ts": 85.597,
+   "ts": 85.596,
    "python": 85.6,
    "tol": 1.712,
    "ok": true
   },
   {
    "check": "oil_supply_shock: SVK growth median 4q",
-   "ts": 2.282,
-   "python": 2.29,
+   "ts": 2.258,
+   "python": 2.26,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth median t=4",
-   "ts": 2.431,
-   "python": 2.433,
+   "ts": 2.407,
+   "python": 2.408,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth 5% t=4",
-   "ts": 1.085,
-   "python": 1.143,
+   "ts": 1.058,
+   "python": 1.118,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth 95% t=4",
-   "ts": 3.677,
-   "python": 3.688,
+   "ts": 3.659,
+   "python": 3.668,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth median t=8",
-   "ts": 2.726,
-   "python": 2.718,
+   "ts": 2.723,
+   "python": 2.715,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth 5% t=8",
-   "ts": 1.157,
-   "python": 1.122,
+   "ts": 1.156,
+   "python": 1.121,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth 95% t=8",
-   "ts": 4.204,
+   "ts": 4.209,
    "python": 4.185,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth median t=20",
-   "ts": 2.74,
-   "python": 2.705,
+   "ts": 2.747,
+   "python": 2.71,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth 5% t=20",
-   "ts": 0.876,
-   "python": 0.848,
+   "ts": 0.879,
+   "python": 0.855,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth 95% t=20",
-   "ts": 4.372,
-   "python": 4.339,
+   "ts": 4.376,
+   "python": 4.345,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth median t=40",
-   "ts": 2.706,
-   "python": 2.707,
+   "ts": 2.709,
+   "python": 2.71,
    "tol": 0.06,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth 5% t=40",
-   "ts": 0.716,
-   "python": 0.663,
+   "ts": 0.717,
+   "python": 0.671,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: world growth 95% t=40",
-   "ts": 4.437,
+   "ts": 4.433,
    "python": 4.455,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: G median t=1",
-   "ts": -0.211,
-   "python": -0.214,
+   "ts": -0.159,
+   "python": -0.162,
    "tol": 0.05,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: G median t=2",
-   "ts": -0.161,
-   "python": -0.165,
+   "ts": -0.119,
+   "python": -0.123,
    "tol": 0.05,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: G median t=4",
-   "ts": -0.1,
-   "python": -0.114,
+   "ts": -0.072,
+   "python": -0.086,
    "tol": 0.05,
    "ok": true
   },
@@ -2015,7 +2015,7 @@
   {
    "check": "us_higher_for_longer: stress share mean t=40",
    "ts": 0.056,
-   "python": 0.054,
+   "python": 0.053,
    "tol": 0.012,
    "ok": true
   },
@@ -2056,64 +2056,64 @@
   },
   {
    "check": "us_higher_for_longer: world level effect 5% t=20",
-   "ts": -0.063,
-   "python": -0.063,
+   "ts": -0.064,
+   "python": -0.064,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: USA P(stress 5y)",
-   "ts": 0.071,
+   "ts": 0.07,
    "python": 0.074,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: USA P(recession 2y)",
-   "ts": 0.312,
-   "python": 0.306,
+   "ts": 0.319,
+   "python": 0.314,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: USA debt median 10y",
-   "ts": 154.933,
+   "ts": 154.86,
    "python": 155.1,
    "tol": 3.102,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: USA growth median 4q",
-   "ts": 1.245,
-   "python": 1.25,
+   "ts": 1.217,
+   "python": 1.22,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: DEU P(stress 5y)",
-   "ts": 0.078,
+   "ts": 0.079,
    "python": 0.084,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: DEU P(recession 2y)",
-   "ts": 0.583,
-   "python": 0.591,
+   "ts": 0.589,
+   "python": 0.597,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: DEU debt median 10y",
-   "ts": 87.649,
+   "ts": 87.628,
    "python": 87.7,
    "tol": 1.754,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: DEU growth median 4q",
-   "ts": 0.838,
-   "python": 0.83,
+   "ts": 0.813,
+   "python": 0.81,
    "tol": 0.12,
    "ok": true
   },
@@ -2126,50 +2126,50 @@
   },
   {
    "check": "us_higher_for_longer: FRA P(recession 2y)",
-   "ts": 0.509,
-   "python": 0.498,
+   "ts": 0.517,
+   "python": 0.506,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: FRA debt median 10y",
-   "ts": 130.607,
+   "ts": 130.599,
    "python": 130.6,
    "tol": 2.612,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: FRA growth median 4q",
-   "ts": 1.103,
-   "python": 1.12,
+   "ts": 1.079,
+   "python": 1.09,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: ITA P(stress 5y)",
    "ts": 0.103,
-   "python": 0.099,
+   "python": 0.1,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: ITA P(recession 2y)",
-   "ts": 0.755,
-   "python": 0.744,
+   "ts": 0.761,
+   "python": 0.75,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: ITA debt median 10y",
-   "ts": 138.705,
+   "ts": 138.689,
    "python": 138.6,
    "tol": 2.772,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: ITA growth median 4q",
-   "ts": 0.406,
-   "python": 0.41,
+   "ts": 0.383,
+   "python": 0.39,
    "tol": 0.12,
    "ok": true
   },
@@ -2182,22 +2182,22 @@
   },
   {
    "check": "us_higher_for_longer: ESP P(recession 2y)",
-   "ts": 0.309,
-   "python": 0.307,
+   "ts": 0.315,
+   "python": 0.312,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: ESP debt median 10y",
-   "ts": 96.776,
+   "ts": 96.766,
    "python": 96.6,
    "tol": 1.932,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: ESP growth median 4q",
-   "ts": 1.154,
-   "python": 1.15,
+   "ts": 1.13,
+   "python": 1.12,
    "tol": 0.12,
    "ok": true
   },
@@ -2210,22 +2210,22 @@
   },
   {
    "check": "us_higher_for_longer: GBR P(recession 2y)",
-   "ts": 0.36,
-   "python": 0.352,
+   "ts": 0.367,
+   "python": 0.36,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: GBR debt median 10y",
-   "ts": 96.508,
+   "ts": 96.496,
    "python": 96.6,
    "tol": 1.932,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: GBR growth median 4q",
-   "ts": 1.178,
-   "python": 1.17,
+   "ts": 1.154,
+   "python": 1.15,
    "tol": 0.12,
    "ok": true
   },
@@ -2238,50 +2238,50 @@
   },
   {
    "check": "us_higher_for_longer: JPN P(recession 2y)",
-   "ts": 0.793,
-   "python": 0.785,
+   "ts": 0.799,
+   "python": 0.792,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: JPN debt median 10y",
-   "ts": 217.721,
-   "python": 217.6,
-   "tol": 4.352,
+   "ts": 217.674,
+   "python": 217.5,
+   "tol": 4.35,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: JPN growth median 4q",
-   "ts": 0.314,
-   "python": 0.34,
+   "ts": 0.284,
+   "python": 0.31,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: CAN P(stress 5y)",
-   "ts": 0.085,
-   "python": 0.085,
+   "ts": 0.08,
+   "python": 0.08,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: CAN P(recession 2y)",
-   "ts": 0.114,
-   "python": 0.117,
+   "ts": 0.116,
+   "python": 0.119,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: CAN debt median 10y",
-   "ts": 127.003,
-   "python": 127.1,
-   "tol": 2.542,
+   "ts": 127.111,
+   "python": 127.2,
+   "tol": 2.544,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: CAN growth median 4q",
-   "ts": 2.672,
-   "python": 2.69,
+   "ts": 2.596,
+   "python": 2.62,
    "tol": 0.12,
    "ok": true
   },
@@ -2294,22 +2294,22 @@
   },
   {
    "check": "us_higher_for_longer: KOR P(recession 2y)",
-   "ts": 0.279,
-   "python": 0.276,
+   "ts": 0.285,
+   "python": 0.282,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: KOR debt median 10y",
-   "ts": 48.18,
+   "ts": 48.189,
    "python": 48.3,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: KOR growth median 4q",
-   "ts": 1.076,
-   "python": 1.08,
+   "ts": 1.052,
+   "python": 1.05,
    "tol": 0.12,
    "ok": true
   },
@@ -2322,22 +2322,22 @@
   },
   {
    "check": "us_higher_for_longer: AUS P(recession 2y)",
-   "ts": 0.178,
-   "python": 0.178,
+   "ts": 0.182,
+   "python": 0.183,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: AUS debt median 10y",
-   "ts": 60.612,
+   "ts": 60.606,
    "python": 60.7,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: AUS growth median 4q",
-   "ts": 1.638,
-   "python": 1.65,
+   "ts": 1.612,
+   "python": 1.63,
    "tol": 0.12,
    "ok": true
   },
@@ -2350,29 +2350,29 @@
   },
   {
    "check": "us_higher_for_longer: CHN P(recession 2y)",
-   "ts": 0.054,
-   "python": 0.06,
+   "ts": 0.056,
+   "python": 0.061,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: CHN debt median 10y",
-   "ts": 134.051,
+   "ts": 134.027,
    "python": 134.2,
    "tol": 2.684,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: CHN growth median 4q",
-   "ts": 2.951,
-   "python": 2.98,
+   "ts": 2.916,
+   "python": 2.95,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: IND P(stress 5y)",
    "ts": 0.131,
-   "python": 0.123,
+   "python": 0.122,
    "tol": 0.025,
    "ok": true
   },
@@ -2385,99 +2385,99 @@
   },
   {
    "check": "us_higher_for_longer: IND debt median 10y",
-   "ts": 87.819,
-   "python": 87.9,
-   "tol": 1.758,
+   "ts": 87.781,
+   "python": 87.8,
+   "tol": 1.756,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: IND growth median 4q",
-   "ts": 6.732,
-   "python": 6.73,
+   "ts": 6.701,
+   "python": 6.71,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: BRA P(stress 5y)",
    "ts": 0.109,
-   "python": 0.115,
+   "python": 0.114,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: BRA P(recession 2y)",
-   "ts": 0.381,
-   "python": 0.376,
+   "ts": 0.39,
+   "python": 0.384,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: BRA debt median 10y",
-   "ts": 124.913,
-   "python": 125.1,
-   "tol": 2.502,
+   "ts": 124.897,
+   "python": 125,
+   "tol": 2.5,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: BRA growth median 4q",
-   "ts": 1.097,
-   "python": 1.11,
+   "ts": 1.065,
+   "python": 1.08,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: MEX P(stress 5y)",
    "ts": 0.123,
-   "python": 0.123,
+   "python": 0.122,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: MEX P(recession 2y)",
-   "ts": 0.304,
-   "python": 0.31,
+   "ts": 0.311,
+   "python": 0.315,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: MEX debt median 10y",
-   "ts": 61.077,
+   "ts": 61.088,
    "python": 61.1,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: MEX growth median 4q",
-   "ts": 1.868,
-   "python": 1.89,
+   "ts": 1.836,
+   "python": 1.86,
    "tol": 0.12,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: TUR P(stress 5y)",
-   "ts": 0.042,
-   "python": 0.043,
+   "ts": 0.045,
+   "python": 0.046,
    "tol": 0.025,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: TUR P(recession 2y)",
-   "ts": 0.378,
-   "python": 0.382,
+   "ts": 0.352,
+   "python": 0.355,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: TUR debt median 10y",
-   "ts": 51.482,
-   "python": 51.5,
+   "ts": 50.804,
+   "python": 50.8,
    "tol": 1.5,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: TUR growth median 4q",
-   "ts": 1.803,
-   "python": 1.8,
+   "ts": 2.008,
+   "python": 2.01,
    "tol": 0.12,
    "ok": true
   },
@@ -2490,22 +2490,22 @@
   },
   {
    "check": "us_higher_for_longer: ZAF P(recession 2y)",
-   "ts": 0.479,
-   "python": 0.481,
+   "ts": 0.487,
+   "python": 0.489,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: ZAF debt median 10y",
-   "ts": 92.794,
+   "ts": 92.788,
    "python": 92.6,
    "tol": 1.852,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: ZAF growth median 4q",
-   "ts": 1.293,
-   "python": 1.32,
+   "ts": 1.264,
+   "python": 1.29,
    "tol": 0.12,
    "ok": true
   },
@@ -2518,22 +2518,22 @@
   },
   {
    "check": "us_higher_for_longer: SVK P(recession 2y)",
-   "ts": 0.099,
-   "python": 0.096,
+   "ts": 0.101,
+   "python": 0.099,
    "tol": 0.03,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: SVK debt median 10y",
-   "ts": 85.358,
+   "ts": 85.342,
    "python": 85.3,
    "tol": 1.706,
    "ok": true
   },
   {
    "check": "us_higher_for_longer: SVK growth median 4q",
-   "ts": 2.717,
-   "python": 2.72,
+   "ts": 2.693,
+   "python": 2.7,
    "tol": 0.12,
    "ok": true
   }
