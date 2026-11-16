@@ -1,5 +1,5 @@
-// ORBIS offline support. Version d403f8dfc6.
-const CACHE = 'orbis-d403f8dfc6';
+// ORBIS offline support. Version 505c868dfc.
+const CACHE = 'orbis-505c868dfc';
 const ASSETS = [
   "./",
   "index.html",
